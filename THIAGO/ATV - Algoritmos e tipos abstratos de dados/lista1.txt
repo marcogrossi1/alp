@@ -1,0 +1,24 @@
+1 a) Algoritmo é uma sequência de ações e/ou procedimentos a ser seguida para alcançar algum objetivo.
+
+  b) O tipo de um dado é determinado pelas características de uma variável. Um número pode ser representado pelo tipo Inteiro, por exemplo.
+
+  c) Um tipo abstrato de dados, diferentemente dos tipos primitivos, é um modelo abstrato que lida com os dados com base em tipos primitivos 
+  (fila, lista e árvore são exemplos de tipos de dados abstratos).
+
+2) Custo pela execução: 
+        - Os resultados dependem do compilador e do hardware e podem variar de computador para computador.
+        - Com vários algoritmos para resolver o mesmo tipo de problema, é possível utilizar essa medida, contanto que mantenha-se as condições iniciais de hardware.
+    Custo por modelo matemático:
+        - Não depende do hardware, já que usa modelo baseado em um computador idealizado.
+    Custo utilizando função de complexidade de espaço:
+        - Custo é expresso por uma função que varia também sobre o espaço em memória, primária ou secundária, usado para finalizar o algoritmo.
+        - Podem haver alterações a depender do hardware.
+
+3) "algoritmo.c". O algoritmo é eficiente para casos sem repetição de valores. Ele pode ter problemas com grandes quantidades de dados, graças ao laço de repetição que testa todos os dados.
+
+4) Essa função realiza o "laço de recursividade" até que n seja menor que 0. Dessa forma, o algoritmo repete os passos até que, após alguns casos de repetição o parametro da função dentro
+   do 'else' seja igual a 0. Dessa forma, x = recursiva(0) + recursiva(0), ou seja, x será igual a 2. Dessa maneira, caso o parâmetro inicial n seja igual a 0, a função retorna 1, caso
+   contrário, a função retorna 2.
+
+5) Caso a restrição seja de estabilidade, procuraria experimentar o algoritmo de ordenação por inserção que, apesar de um pouco mais lento, é um dos mais instáveis. Para velocidade,
+   tentaria utilizar o quicksort, que possui interações mais rápidas que o de inserção, principalmente em casos onde o algoritmo está ordenado ao contrário, por exemplo.

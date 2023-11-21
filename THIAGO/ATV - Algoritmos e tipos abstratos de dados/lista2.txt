@@ -1,0 +1,43 @@
+1) 
+def busca sequencial:
+    for i = 0 até numeroElementos:
+        se chave = elemento[i]
+            return i
+        
+        i++
+    
+    return -1
+
+2)
+def busca binaria:
+    ordenarLista(lista)
+
+    if lista[elemento do meio] = chave:
+        return chave
+    
+    elif lista[elemento do meio] > chave:
+        possivelPosicaoFinal = elemento do meio - 1
+    
+    REPETIR O PROCESSO, CONSIDERANDO QUE A LISTA POSSUI APENAS A PRIMEIRA METADE DOS ELEMENTOS!
+
+    elif lista[elemento do meio] < chave:
+        possivelPosicaoInicial = elemento do meio + 1
+
+    REPETIR O PROCESSO, CONSIDERANDO QUE A LISTA POSSUI APENAS A SEGUNDA METADE DOS ELEMENTOS!
+
+3) // Basta criar uma variável que conta a metade dos elementos do vetor a cada interação da função!
+def busca binaria diferente:
+    ordenarLista(lista)
+
+    if lista[elemento do meio] = chave:
+        return chave
+    
+    elif lista[elemento do meio] > chave:
+        possivelPosicaoFinal = elemento do meio - 1
+    
+    REPETIR O PROCESSO, CONSIDERANDO QUE A LISTA POSSUI APENAS A PRIMEIRA METADE DOS ELEMENTOS!
+
+    elif lista[elemento do meio] < chave:
+        possivelPosicaoInicial = elemento do meio + 1
+
+    REPETIR O PROCESSO, CONSIDERANDO QUE A LISTA POSSUI APENAS A SEGUNDA METADE DOS ELEMENTOS!
